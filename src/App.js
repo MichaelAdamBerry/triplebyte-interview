@@ -1,12 +1,18 @@
 import React from "react";
 import "./App.css";
+import "./components/SiteTitle";
+import { SiteTitle } from "./components/SiteTitle";
+import { Box } from "./components/Box";
+import { Box2 } from "./components/Box2";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Triplebyte Initial Setup</h1>
+        <SiteTitle title="Triplebyte Starter" />
       </header>
+      <Box />
+      <Box2 />
     </div>
   );
 }

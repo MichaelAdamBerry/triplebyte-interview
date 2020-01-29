@@ -22,3 +22,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
+
+.box {
+  width: 200px;
+  height: 200px;
+  min-height: 200px;
+  border: solid;
+  color: var(--wt);
+}
